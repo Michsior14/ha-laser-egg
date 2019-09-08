@@ -1,7 +1,10 @@
 {
   "domain": "laser_egg",
   "name": "Laser Egg",
+  "documentation": "https://github.com/Michsior14/ha_laser_egg",
   "dependencies": [],
   "codeowners": [],
-  "requirements": ["numpy"]
+  "requirements": [
+    "numpy"
+  ]
 }

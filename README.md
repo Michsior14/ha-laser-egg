@@ -9,7 +9,7 @@ First you need to get the device id and api key from kaiterra site.
 2. Add device to dashbord using "+" sign on the bottom and write down device uuid
 3. Open [Profile/Developer](https://dashboard.kaiterra.cn/me/account/developer), generate new key and write it down
 
-### Installing and configuring the custom component
+### Manual installation
 1. Using the tool of choice open the directory (folder) for your HA configuration (where you find configuration.yaml).
 2. If you do not have a `custom_components` directory (folder) there, you need to create it.
 3. In the custom_components directory (folder) create a new folder called `laser_egg`.
@@ -25,6 +25,21 @@ sensor:
 ```
 
 7. Restart home-assistant
+
+### HACS installation
+1. Ensure that [HACS](https://custom-components.github.io/hacs/) is installed.
+2. Search for and install the "Laser Egg" integration.
+3. Configure the `laser_egg` sensor.
+
+```yaml
+sensor:
+  - platform: laser_egg
+    device_id: xxxxx
+    api_key: xxxxx
+```
+
+4. Restart Home Assistant.
+
 
 ## Configuration options
 
