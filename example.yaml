@@ -1,0 +1,5 @@
+sensor:
+  - platform: laser_egg
+    name: My Laser Egg
+    device_id: xxxxx
+    api_key: xxxxx
