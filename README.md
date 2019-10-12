@@ -1,3 +1,5 @@
+# THE GENERAL KAITERRA INTEGRATION HAS BEEN OFFICALY ADDED TO [HOME ASSISTANT](https://www.home-assistant.io/integrations/kaiterra)
+
 # Home Assistant Laser Egg sensor component
 Home Assistant custom component for the Kaiterra's LaserEgg
 
